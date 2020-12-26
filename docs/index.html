@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- Theme vue -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+</head>
+<body>
+  <div id="app">Docsify rendering...</div>
+  <script>
+    window.$docsify = {
+      name: 'coding-notebook',
+      repo: 'yunxiaoli2017/coding-notebook',
+      maxLevel: 5,//最大支持渲染的标题层级
+      subMaxLevel: 3,
+      homepage: 'README.md',
+      coverpage: true,
+      loadSidebar: true,
+      auto2top: true,//切换页面后是否自动跳转到页面顶部
+      //全文搜索
+      search: {
+        //maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '找不到结果',
+        // 搜索标题的最大程级, 1 - 6
+        depth: 6,
+      },
+      plugins: [
+        EditOnGithubPlugin.create('https://github.com/yunxiaoli2017/coding-notebook')
+      ],
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!--Java代码高亮-->
+  <script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
+  <!--Python代码高亮-->
+  <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
+  <!--Cpp代码高亮-->
+  <script src="//unpkg.com/prismjs/components/prism-cpp.min.js"></script>
+</body>
+</html>
