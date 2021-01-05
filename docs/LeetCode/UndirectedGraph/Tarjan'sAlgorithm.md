@@ -72,12 +72,15 @@ class Solution {
     for (int nei : adj[cur]) {
       if (nei == parent) continue;
       if (id[nei] == -1) {
+        // unvisited, can follow along neighbor's path and use lo[nei]
         dfs(adj, cur, nei, id, lo, res);
         lo[cur] = Math.min(lo[cur], lo[nei]);
         if (id[cur] < lo[nei]) {
+          // nei can not reach any nodes more senior than cur, cur--nei is a bridge
           res.add(Arrays.asList(cur, nei));
         }
       } else {
+        // visited, can only use id[nei]
         lo[cur] = Math.min(lo[cur], id[nei]);
       }
     }

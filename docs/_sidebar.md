@@ -17,12 +17,21 @@
   * [Array](LeetCode/Array.md)
     * [Two Sum](LeetCode/Array/TwoSum.md)
     * [Binary Search](LeetCode/Array/BinarySearch.md)
+    * [Sliding Window](LeetCode/Array/SlidingWindow.md)
     * [Heap](LeetCode/Array/Heap.md)
   
   * [Dynamic Programming](LeetCode/DynamicProgramming.md)
     * [Knapsack](LeetCode/DynamicProgramming/Knapsack.md)
     * [Stock](LeetCode/DynamicProgramming/Stock.md)
   
+  * [Linked List](LeetCode/LinkedList.md)
+    * [Sort](LeetCode/LinkedList/Sort.md)
+  
+  * [Tree](LeetCode/Tree.md)
+    * [Tree Traversal](LeetCode/Tree/TreeTraversal.md)
+    * [Construct Tree](LeetCode/Tree/ConstructTree.md)
+    * [Trie](LeetCode/Tree/Trie.md)
+
   * [Explore Matrix](LeetCode/ExploreMatrix.md)
     * [Prune Paths](LeetCode/ExploreMatrix/PrunePaths.md)
     * [Island](LeetCode/ExploreMatrix/Island.md)
@@ -35,6 +44,10 @@
       * [126. Word Ladder II](LeetCode/Problems/126_Word_Ladder_II.md)
       * [785. Is Graph Bipartite](LeetCode/Problems/785_Is_Graph_Bipartite.md) -->
 
-  * [Directed Graph](LeetCode/Directed_Graph.md)
+  * [Directed Graph](LeetCode/DirectedGraph.md)
     * [Topological Sort](LeetCode/DirectedGraph/TopologicalSort.md)
     * [Shortest Path](LeetCode/DirectedGraph/ShortestPath.md)
+
+  * [To Be Classified](LeetCode/ToBeClassified.md)
+    * [Recursion](LeetCode/ToBeClassified/Recursion.md)
+    * [Backtrack](LeetCode/ToBeClassified/Backtrack.md)
