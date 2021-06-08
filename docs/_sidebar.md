@@ -18,7 +18,11 @@
     * [Two Sum](LeetCode/Array/TwoSum.md)
     * [Binary Search](LeetCode/Array/BinarySearch.md)
     * [Sliding Window](LeetCode/Array/SlidingWindow.md)
+    * [Interval](LeetCode/Array/Interval.md)
     * [Heap](LeetCode/Array/Heap.md)
+
+  * String
+    * [Substring](LeetCode/String/Substring.md)
   
   * [Dynamic Programming](LeetCode/DynamicProgramming.md)
     * [Knapsack](LeetCode/DynamicProgramming/Knapsack.md)
@@ -31,6 +35,7 @@
     * [Tree Traversal](LeetCode/Tree/TreeTraversal.md)
     * [Construct Tree](LeetCode/Tree/ConstructTree.md)
     * [Trie](LeetCode/Tree/Trie.md)
+    * [Segment Tree](LeetCode/Tree/SegmentTree.md)
 
   * [Explore Matrix](LeetCode/ExploreMatrix.md)
     * [Prune Paths](LeetCode/ExploreMatrix/PrunePaths.md)
@@ -51,3 +56,6 @@
   * [To Be Classified](LeetCode/ToBeClassified.md)
     * [Recursion](LeetCode/ToBeClassified/Recursion.md)
     * [Backtrack](LeetCode/ToBeClassified/Backtrack.md)
+    * [Memoization](LeetCode/ToBeClassified/Memoization.md)
+    * [Line Sweep](LeetCode/ToBeClassified/LineSweep.md)
+    * [Geometry](LeetCode/ToBeClassified/Geometry.md)

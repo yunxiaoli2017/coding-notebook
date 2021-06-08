@@ -19,7 +19,6 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 }
 ```
 
-
 ### 33. Search in Rotated Sorted Array
 
 > You are given an integer array nums sorted in ascending order, and an integer target.

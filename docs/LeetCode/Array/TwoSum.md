@@ -1,6 +1,10 @@
 ------
 Note: Possible outputs are bool, one valid answer, all valid answers, all valid answers without duplicate combination
 ### 1. Two Sum
+> Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+> 
+> You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
+
 Use hashtable. Time O(n) Space O(n)
 
 ### 170. Two Sum III - Data structure design
@@ -13,7 +17,7 @@ Use hashtable. Time O(n) Space O(n)
 Use hashtable. Overall Space O(n); void add(int number) Time O(1); boolean find(int value) Time O(n)
 
 ### 167. Two Sum II - Input array is sorted
-1. Use hashtable. Time O(n^2) Space O(n)
+1. Use hashtable. Time O(n) Space O(n)
 2. Use binary search naively. Time O(nlogn) Space O(1)
 3. Use two pointers. Time O(n) Space O(1)
 4. Use two pointers and binary search wisely. Time **better than O(n)** Space O(1)

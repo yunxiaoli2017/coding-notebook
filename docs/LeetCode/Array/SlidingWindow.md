@@ -53,16 +53,16 @@ class Solution:
     _BIT_BY_VOWEL = {'a': 1, 'e': 2, 'i': 4, 'o': 8, 'u': 16}
     # Time O(n) Space O(1)
     def findTheLongestSubstring(self, s: str) -> int:
-        bits_by_index = {0: 0}
+        index_by_bits = {0: 0}
         max_len = 0
         bits = 0 # all is even initially
         for i in range(len(s)):
             if s[i] in self._BIT_BY_VOWEL:
                 bits = bits ^ self._BIT_BY_VOWEL[s[i]]
-            if bits not in bits_by_index:
-                bits_by_index[bits] = i + 1
+            if bits not in index_by_bits:
+                index_by_bits[bits] = i + 1
             else:
-                max_len = max(max_len, i + 1 - bits_by_index[bits])
+                max_len = max(max_len, i + 1 - index_by_bits[bits])
         return max_len
 ```
 

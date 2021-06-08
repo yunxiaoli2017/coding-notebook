@@ -8,7 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- Theme vue -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
+<style>
+</style>
 <body>
   <div id="app">Docsify rendering...</div>
   <script>
@@ -32,6 +35,13 @@
         placeholder: 'search',
         noData: 'No result found.',
         depth: 6,
+      },
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
       }
     }
   </script>
@@ -41,9 +51,22 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- Java code highlight-->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
-  <!--Python code highlight-->
+  <!-- Python code highlight-->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-  <!--Cpp code highlight-->
+  <!-- Cpp code highlight-->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+  <!-- C# code highlight-->
+  <script src="//unpkg.com/prismjs/components/prism-csharp.min.js"></script>
+  <!-- docsify-tabs -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XDXV0DGE39"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XDXV0DGE39');
+  </script>
 </body>
 </html>

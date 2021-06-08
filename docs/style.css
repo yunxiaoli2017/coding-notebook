@@ -1,0 +1,71 @@
+
+/*代码块背景*/
+pre code{
+  /* background-color: rgb(255, 255, 255) !important; */
+  background-color: #212121 !important;
+}
+
+.markdown-section pre>code {
+  color: #c0c3c1 !important;
+  font-family: 'Inconsolata', consolas,"PingFang SC", "Microsoft YaHei", monospace !important;
+  /* background-color: #212121 !important;    //#accfff  #282c34 */
+  font-size: 15px !important;
+  /* white-space: pre !important; */
+  line-height: 1.5 !important;
+  /* -moz-tab-size: 4 !important; */
+  /* -o-tab-size: 4 !important; */
+  /* tab-size: 4 !important; */
+  /*border-radius: .3em;*/
+}
+
+.token.directive.keyword{
+  color: #4faee2 !important;
+}
+
+.token.keyword{
+  color: #c678dd !important;
+}
+
+.token.tag{
+  color: #a589ad !important;
+}
+
+.token.class-name{
+  /* color: */
+}
+
+.token.attr-name{
+  color: #de916c !important;
+}
+
+.token.attr-value{
+  color: #4faee2 !important;
+}
+
+.token.macro.property{
+  color: #4faee2 !important;
+}
+
+.token.function{
+  color: #e6b456 !important;
+}
+
+.token.string{
+  color: #98b755 !important;
+}
+
+.token.operator{
+  /* color: */
+}
+
+.token.punctuation{
+  color: #c0c3c1 !important;
+}
+
+.token.number{
+  color: #c0c3c1  !important;
+}
+
+.token.comment{
+  color: #737c8b !important;
+}
